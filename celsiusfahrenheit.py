@@ -20,7 +20,7 @@ def fahrenheit_to_kelvin(fahrenheit):
     w = celsius_to_kelvin(fahrenheit_to_celsius(fahrenheit))
     return w
 
-fahrenheit = 90 #float(input("Temperatur in Fahrenheit: ")) #Eingabeaufforderung
+fahrenheit = 90 #Die Funktion wird für 90 Grad Fahrenheit berechnet, da pytest mit Eingabeaufforderung fehgeschlagen
 celsius = round(fahrenheit_to_celsius(fahrenheit),2)
 kelvin = round(fahrenheit_to_kelvin(fahrenheit),2)
 print("Fahrenheit:", fahrenheit)
