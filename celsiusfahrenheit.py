@@ -20,6 +20,12 @@ def fahrenheit_to_kelvin(fahrenheit):
     w = celsius_to_kelvin(fahrenheit_to_celsius(fahrenheit))
     return w
 
+def celsius_to_fahrenheit(celsius):
+    # convert fahrenheit to kelvin
+    tempf = (celsius * 1.8) + 32
+    return tempf
+
+
 fahrenheit = 90 #Die Funktion wird für 90 Grad Fahrenheit berechnet, da pytest mit Eingabeaufforderung fehgeschlagen
 celsius = round(fahrenheit_to_celsius(fahrenheit),2)
 kelvin = round(fahrenheit_to_kelvin(fahrenheit),2)
