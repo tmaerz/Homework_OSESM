@@ -28,3 +28,7 @@ kelvin = round(fahrenheit_to_kelvin(fahrenheit), 2)  # round the result of kelvi
 print("Fahrenheit:", fahrenheit)
 print("Celsius:", celsius)
 print("Kelvin:", kelvin)
+The test was tested in Jupyter Notebook and is running by giving the right (expected) results.
+he code test (test_celsiusfahrenheit.py) depends on some packages, but the information of those is missing and shows the ModuleNotFound Error. There is no test per function, and the test didn’t fail. 
+
+didn’t found gitignore file
